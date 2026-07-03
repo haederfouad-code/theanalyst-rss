@@ -1,0 +1,16 @@
+{
+  "name": "theanalyst-rss",
+  "version": "1.0.0",
+  "description": "The Analyst Football RSS Generator",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "express": "^4.19.2",
+    "rss": "^1.2.2"
+  }
+}
